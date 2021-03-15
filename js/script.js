@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     // Activación de transición del menú principal
-    $('aside#menu-hamburguesa nav a, header article nav a').bind('click',function(event){
+    $('aside#menu-galeano nav a, header article nav a').bind('click',function(event){
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -14,7 +14,7 @@ $(document).ready(function(){
     
     // Abrir y cerrar Menú Hamburguesa
     $('#abrir').click(function(){
-        $('aside#menu-hamburguesa').animate({
+        $('aside#menu-galeano').animate({
             left: 0
         },300,'easeOutExpo');
 
@@ -24,8 +24,8 @@ $(document).ready(function(){
         event.preventDefault();
     });
 
-    $('#cerrar, aside#menu-hamburguesa nav a').click(function(){
-        $('aside#menu-hamburguesa').animate({
+    $('#cerrar, aside#menu-galeano nav a').click(function(){
+        $('aside#menu-galeano').animate({
             left: -290
         },300,'easeOutExpo');
 
