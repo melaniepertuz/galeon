@@ -44,12 +44,12 @@ aside#boton-whatsapp a:hover { background: #000; transition: all 0.3s ease-in; }
 
 
 /* Componente Header Logo y Menú */
-header { width: 100%; height: 130px; margin: 0 auto; float: none; position: fixed; top: 0; left: 0; z-index: 99990; background: url(../img/banner-1_Mesa\ de\ trabajo\ 1.png) no-repeat bottom center transparent; background-size: cover; }
+header { width: 100%; height: 100px; margin: 0 auto; position: fixed; float: none; top: 0; left: 0; z-index: 99990; background: url(../img/banner-1_Mesa\ de\ trabajo\ 1.png) no-repeat bottom center transparent; background-size: cover; }
 header article { width: 1100px; height: 90px; margin: 0 auto; float: none; position: relative; }
 
-header article figure { width: 94px; height: 110px; margin: 0; float: left; position: relative; }
+header article figure { width: 94px; left:255px; height: 110px; margin: 0; float: left; position: relative; }
 header article figure a { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
-header article figure a img { width: 200px; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
+header article figure a img { top: 25px;width: 200px; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
 header article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
 
 header article nav { width: 430px; height: 40px; margin: 22px 0; float: right; position: relative; }
@@ -59,7 +59,7 @@ header article nav a:hover { color: #000 text-shadow: 0 0 8px rgb(0 0 0 / 30%); 
 
 
 /* Caja Main */
-main { width: 100%; height: auto; margin: 150px auto 0 auto; float: none; position: relative; }
+main { width: 100%; height: auto; margin: 80px auto 0 auto; float: none; position: relative; }
 
 
 /* Componente Sección tipo Menú a 2 Columnas: Burger, beverages y Pizzas */
@@ -114,9 +114,9 @@ section#importante article nav a:hover img { filter: saturate(1.7); transition: 
 
 /* Componente Footer Logo al Centro */
 footer { width: 100%; height: 200px; margin: 0 auto; float: none; position: relative; background: url(../img/footer_bg.png) no-repeat bottom center #222; background-size: cover; }
-footer figure { width: 94px; height: 136px; margin: 0 auto; float: none; position: relative; top: 32px; }
+footer figure { width: 200px; height: 136px; margin: 0 auto; float: none; position: relative; top: 32px; }
 footer figure a { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
-footer figure a img {  width: 148px; height: auto; margin: -20px; float: none; position: relative; display: block; }
+footer figure a img { width: 200px; top: 50px; height: auto; margin: 0; float: none; position: relative; display: block; }
 footer figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
 
 
@@ -128,7 +128,7 @@ footer figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
 @media only screen and (max-width: 1199px){
     header { height: 80px; }
     header article { width: 80%; height: 80px; }
-    header article figure { width: 80px; height: 93px; margin: 0 auto; float: none; }
+    header article figure { left:0;width: 200px; height: 93px; margin: 0 auto; float: none; }
     header article nav { display: none; }
 
 
