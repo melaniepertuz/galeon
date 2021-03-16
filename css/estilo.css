@@ -116,7 +116,7 @@ section#importante article nav a:hover img { filter: saturate(1.7); transition: 
 footer { width: 100%; height: 200px; margin: 0 auto; float: none; position: relative; background: url(../img/footer_bg.png) no-repeat bottom center #222; background-size: cover; }
 footer figure { width: 94px; height: 136px; margin: 0 auto; float: none; position: relative; top: 32px; }
 footer figure a { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
-footer figure a img {  width: 100px; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
+footer figure a img {  width: 148px; height: auto; margin: -20px; float: none; position: relative; display: block; }
 footer figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
 
 
